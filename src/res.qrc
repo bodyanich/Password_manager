@@ -1,0 +1,43 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Icons/circular-left-arrow.png</file>
+        <file>Icons/copy.png</file>
+        <file>Icons/die_1.png</file>
+        <file>Icons/down-arrow.png</file>
+        <file>Icons/folder.png</file>
+        <file>Icons/hide.png</file>
+        <file>Icons/locked.ico</file>
+        <file>Icons/locked2.ico</file>
+        <file>Icons/logo.ico</file>
+        <file>Icons/logo2.png</file>
+        <file>Icons/up-arrow-angle.png</file>
+        <file>Icons/view_3.png</file>
+        <file>Icons/cloud.png</file>
+        <file>Icons/dropbox_download.png</file>
+        <file>Icons/dropbox_upload.png</file>
+        <file>Icons/add (1).png</file>
+        <file>Icons/add (2).png</file>
+        <file>Icons/add.png</file>
+        <file>Icons/close.png</file>
+        <file>Icons/die.png</file>
+        <file>Icons/download.png</file>
+        <file>Icons/edit (1).png</file>
+        <file>Icons/edit.png</file>
+        <file>Icons/file.png</file>
+        <file>Icons/floppy.png</file>
+        <file>Icons/folder (1).png</file>
+        <file>Icons/id-card.png</file>
+        <file>Icons/key.png</file>
+        <file>Icons/new-document.png</file>
+        <file>Icons/new-folder.png</file>
+        <file>Icons/notes.png</file>
+        <file>Icons/padlock.png</file>
+        <file>Icons/recent.png</file>
+        <file>Icons/setting.png</file>
+        <file>Icons/sign-out.png</file>
+        <file>Icons/title.png</file>
+        <file>Icons/web.png</file>
+        <file>Icons/writing.png</file>
+        <file>Icons/x-mark.png</file>
+    </qresource>
+</RCC>

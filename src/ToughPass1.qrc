@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>ToughPass_resource.rc</file>
+    </qresource>
+</RCC>

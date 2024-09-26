@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UploadDbDialog</class>
+ <widget class="QWidget" name="UploadDbDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>788</width>
+    <height>385</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(47, 47, 48)</string>
+  </property>
+  <widget class="QPushButton" name="okButton">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>290</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+	background-color:rgb(0, 85, 0);
+	color: rgb(194, 194, 194);
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgb(52, 52, 52);
+	border-radius: 3px;
+}
+
+QPushButton::hover
+{
+	background-color: rgb(0, 94, 0);
+}
+
+QPushButton::pressed
+{
+	border: none;
+}</string>
+   </property>
+   <property name="text">
+    <string>Ok</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancelButton">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>290</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+	background-color: rgb(62, 62, 67);
+	color: rgb(194, 194, 194);
+	border-style: none;
+	border-width: 0px;
+	border-color: rgb(45, 45, 45);
+	border-radius: 3px;
+}
+
+QPushButton::hover
+{
+	background-color: rgb(36, 36, 36);
+	border-style: solid;
+	border-color: rgb(45, 45, 45);
+    border-width: 3px;
+}
+
+QPushButton::pressed
+{
+	background-color: rgb(26, 26, 26);
+	border: none;
+}</string>
+   </property>
+   <property name="text">
+    <string>Cancel</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>80</y>
+     <width>601</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(65, 65, 66);
+color: rgb(194, 194, 194);</string>
+   </property>
+   <property name="title">
+    <string>What do you want to do?</string>
+   </property>
+   <widget class="QRadioButton" name="radioButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>571</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(194, 194, 194);</string>
+    </property>
+    <property name="text">
+     <string>Add - do not overwrite an existing file. The autorename strategy is to append 
+a number to the file name. For example, &quot;document.txt&quot; might become
+&quot;document (2).txt&quot;.</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>110</y>
+      <width>561</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(194, 194, 194);</string>
+    </property>
+    <property name="text">
+     <string>Overwrite - overwrite the existing file. The autorename strategy is the 
+same as it is for add.</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>10</y>
+     <width>511</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(194, 194, 194);</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;The file you want to upload already exists in your DropBox folder.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
